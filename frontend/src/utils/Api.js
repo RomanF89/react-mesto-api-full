@@ -105,9 +105,8 @@ _checkResponse(res) {
 }
 
 const api = new Api ({
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'https://api.mesto89.students.nomoredomains.xyz',
   headers: {
-    // authorization: '656fe77d-0d5d-4667-83c7-0ce1cda6be37',
     'Content-Type': 'application/json',
   }
 });
