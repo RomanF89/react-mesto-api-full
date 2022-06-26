@@ -1,0 +1,14 @@
+.header__caption {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 0 0 24px;
+  transition: opacity .5s ease-in;
+}
+
+.header__caption:hover {
+  opacity: 0.6;
+}

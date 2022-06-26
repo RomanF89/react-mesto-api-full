@@ -1,0 +1,76 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/inter/inter.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__caption/header__caption.css);
+@import url(./blocks/header/__navigation/header__navigation.css);
+@import url(./blocks/header/__profile-email/header__profile-email.css);
+@import url(./blocks/profile/profile.css);
+@import url(./blocks/profile/__titles/profile__titles.css);
+@import url(./blocks/profile/__name/profile__name.css);
+@import url(./blocks/profile/__info/profile__info.css);
+@import url(./blocks/profile/__edit-button/profile__edit-button.css);
+@import url(./blocks/profile/__description/profile__description.css);
+@import url(./blocks/profile/__avatar/profile__avatar.css);
+@import url(./blocks/profile/__avatar-container/profile__avatar-container.css);
+@import url(./blocks/profile/__overlay/profile__overlay.css);
+@import url(./blocks/profile/__add-button/profile__add-button.css);
+@import url(./blocks/elements/elements.css);
+@import url(./blocks/element/element.css);
+@import url(./blocks/element/__delete-button/element__delete-button.css);
+@import url(./blocks/element/__delete-button/_hidden/element__delete-button_hidden.css);
+@import url(./blocks/element/__title/element__title.css);
+@import url(./blocks/element/__mask-group/element__mask-group.css);
+@import url(./blocks/element/__like/element__like.css);
+@import url(./blocks/element/__like/_active/element__like_active.css);
+@import url(./blocks/element/__like-area/element__like-area.css);
+@import url(./blocks/element/__like-count/element__like-count.css);
+@import url(./blocks/element/__group/element__group.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__content/footer__content.css);
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__title/popup__title.css);
+@import url(./blocks/popup/__title/_type/_delete-submit/popup__title_type_delete-submit.css);
+@import url(./blocks/popup/__title/_type/_info-tooltip/popup__title_type_info-tooltip.css);
+@import url(./blocks/popup/__submit-button/popup__submit-button.css);
+@import url(./blocks/popup/__submit-button/_disabled/popup__submit-button_disabled.css);
+@import url(./blocks/popup/__handlers/popup__handlers.css);
+@import url(./blocks/popup/__form/popup__form.css);
+@import url(./blocks/popup/__field/popup__field.css);
+@import url(./blocks/popup/__field/_type_error/popup__field_type_error.css);
+@import url(./blocks/popup/__field-container/popup__field-container.css);
+@import url(./blocks/popup/__close-button/popup__close-button.css);
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__image/popup__image.css);
+@import url(./blocks/popup/__image-figure/popup__image-figure.css);
+@import url(./blocks/popup/__image-caption/popup__image-caption.css);
+@import url(./blocks/popup/__error-message/popup__error-message.css);
+@import url(./blocks/popup/__error-message/_visible/popup__error-message_visible.css);
+@import url(./blocks/popup/__tooltip-image/popup__tooltip-image.css);
+@import url(./blocks/root/root.css);
+@import url(./blocks/login/__container/login__container.css);
+@import url(./blocks/login/__field-container/login__field-container.css);
+@import url(./blocks/login/__field/login__field.css);
+@import url(./blocks/login/__form/login__form.css);
+@import url(./blocks/login/__submit-button/login__submit-button.css);
+@import url(./blocks/login/__title/login__title.css);
+@import url(./blocks/registration/__container/registration__container.css);
+@import url(./blocks/registration/__field-container/registration__field-container.css);
+@import url(./blocks/registration/__field/registration__field.css);
+@import url(./blocks/registration/__form/registration__form.css);
+@import url(./blocks/registration/__login-redirect/registration__login-redirect.css);
+@import url(./blocks/registration/__login-redirect/_link/registration__login-redirect-link.css);
+@import url(./blocks/registration/__submit-button/registration__submit-button.css);
+@import url(./blocks/registration/__title/registration__title.css);
+
+
+
+
+
+
+
+
+
+

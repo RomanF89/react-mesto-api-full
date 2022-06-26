@@ -1,0 +1,11 @@
+.popup__error-message {
+  min-height: 27px;
+  display: flex;
+  color: #FF3333;
+  font-size: 12px;
+  opacity: 0;
+}
+
+.popup__error-message:nth-last-child(1) {
+  padding-bottom: 18px;
+}

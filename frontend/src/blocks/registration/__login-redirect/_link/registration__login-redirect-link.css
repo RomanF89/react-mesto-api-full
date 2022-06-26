@@ -1,0 +1,13 @@
+.registration__login-redirect_link {
+  margin: 0 0 0 3px ;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: opacity .5s ease-in;
+}
+
+.registration__login-redirect_link:hover {
+  opacity: 0.6;
+}
