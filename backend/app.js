@@ -1,4 +1,4 @@
-const dotenv = require('dotenv');
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const { errors } = require('celebrate');
@@ -13,9 +13,9 @@ mongoose.connect('mongodb://localhost:27017/mestodb');
 
 const app = express();
 
-const { PORT = 3000 } = process.env;
+console.log(process.env.NODE_ENV);
 
-dotenv.config();
+const { PORT = 3000 } = process.env;
 
 app.use(cors({ credentials: true, origin: ['https://localhost:3001', 'https://localhost:3000', 'https://mesto89.students.nomoredomains.xyz', 'https://api.mesto89.students.nomoredomains.xyz'] }));
 
