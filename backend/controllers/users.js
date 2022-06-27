@@ -6,6 +6,8 @@ const { BadRequestError } = require('../errors/badRequestError');
 const { BadAuthError } = require('../errors/badAuthError');
 const { ConflictingRequestError } = require('../errors/conflictingRequestError');
 
+const { NODE_ENV, JWT_SECRET } = process.env;
+
 const getUsers = (_, res, next) => {
   User.find({}, {
     name: 1,
@@ -140,7 +142,7 @@ const login = (req, res, next) => {
         });
     })
     .then((user) => {
-      const token = jwt.sign({ _id: user._id }, 'secret-key');
+      const token = jwt.sign({ _id: user._id }, NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret');
       res.cookie('jwt', token, {
         maxAge: 3600000 * 24 * 7,
         httpOnly: true,
@@ -155,9 +157,7 @@ const login = (req, res, next) => {
 };
 
 const unLogin = (req, res, next) => {
-  console.log('ssss');
   const userId = req.user._id;
-  console.log(req);
   if (!userId) {
     next(new BadRequestError('user not found'));
   }
@@ -169,7 +169,7 @@ const unLogin = (req, res, next) => {
       return user;
     })
     .then((user) => {
-      const token = jwt.sign({ _id: user._id }, 'secret-key');
+      const token = jwt.sign({ _id: user._id }, NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret');
       res.cookie('jwt', token, {
         maxAge: 0,
         httpOnly: true,
