@@ -17,7 +17,7 @@ console.log(process.env.NODE_ENV);
 
 const { PORT = 3000 } = process.env;
 
-app.use(cors({ credentials: true, origin: ['https://localhost:3001', 'https://localhost:3000', 'https://mesto89.students.nomoredomains.xyz', 'https://api.mesto89.students.nomoredomains.xyz'] }));
+app.use(cors({ credentials: true, origin: ['https://localhost:3001', 'https://localhost:3000', 'https://mesto89.students.nomoredomains.xyz', 'https://api.mesto89.students.nomoredomains.xyz', 'http://localhost:3001', 'http://localhost:3000'] }));
 
 app.use(helmet());
 
