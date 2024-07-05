@@ -105,8 +105,7 @@ _checkResponse(res) {
 }
 
 const api = new Api ({
-  // baseUrl: 'https://api.mesto89.students.nomoredomains.xyz',
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'http://api.romanf89.nomorepartiesco.ru',
   headers: {
     'Content-Type': 'application/json',
   }
