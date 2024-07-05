@@ -1,7 +1,8 @@
 # react-mesto-api-full
-https://mesto89.students.nomoredomains.xyz/sign-in
+Frontend https://romanf89.nomorepartiesco.ru
+Backend https://api.romanf89.nomorepartiesco.ru
 
-51.250.71.164
+84.201.130.97
 
 Проект Mesto : интерактивная страница о путешесвтиях куда можно будет добавлять фотографии, удалять их и ставить лайки.
 

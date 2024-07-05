@@ -1,5 +1,5 @@
 # Mesto
-https://romanf89.github.io/mesto-react/index.html
+Frontend https://romanf89.nomorepartiesco.ru
 
 Проект Mesto : интерактивная страница о путешесвтиях куда можно будет добавлять фотографии, удалять их и ставить лайки.
 
