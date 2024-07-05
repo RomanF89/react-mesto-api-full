@@ -105,7 +105,7 @@ _checkResponse(res) {
 }
 
 const api = new Api ({
-  baseUrl: 'http://api.romanf89.nomorepartiesco.ru',
+  baseUrl: 'https://api.romanf89.nomorepartiesco.ru',
   headers: {
     'Content-Type': 'application/json',
   }

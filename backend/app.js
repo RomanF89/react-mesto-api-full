@@ -17,7 +17,7 @@ console.log(process.env.NODE_ENV);
 
 const { PORT = 3000 } = process.env;
 
-app.use(cors({ credentials: true, origin: ['http://romanf89.nomorepartiesco.ru', 'http://api.romanf89.nomorepartiesco.ru', 'https://localhost:3001', 'https://localhost:3000', 'http://localhost:3001', 'http://localhost:3000'] }));
+app.use(cors({ credentials: true, origin: ['http://romanf89.nomorepartiesco.ru', 'http://api.romanf89.nomorepartiesco.ru', 'https://romanf89.nomorepartiesco.ru', 'https://api.romanf89.nomorepartiesco.ru', 'https://localhost:3001', 'https://localhost:3000', 'http://localhost:3001', 'http://localhost:3000'] }));
 
 app.use(helmet());
 

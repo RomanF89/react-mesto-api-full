@@ -1,5 +1,5 @@
 
-export const BASE_URL = 'http://api.romanf89.nomorepartiesco.ru';
+export const BASE_URL = 'https://api.romanf89.nomorepartiesco.ru';
 
 
 
